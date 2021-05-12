@@ -24,6 +24,6 @@ channel.basic_publish(exchange='nestor', routing_key='', body=message1)
 
 channel.basic_publish(exchange='nestor', routing_key='', body=message2)
 
-print(" [x] Sent %r" % message1)
-print(" [x] Sent %r" % message2)
+print(" [x] Enviar %r" % message1)
+print(" [x] Enviar %r" % message2)
 connection.close()
