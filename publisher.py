@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 import pika
-import sys
+import sys   
 import time
 import os
-
 time.sleep(30)
 
 HOST = os.environ['RABBITMQ_HOST']
